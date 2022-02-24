@@ -1,8 +1,10 @@
-import pandas as pd
-from sklearn import preprocessing
-from feature_name import *
 import numpy as np
-from deepctr_torch.inputs import SparseFeat, DenseFeat, get_feature_names
+import pandas as pd
+from deepctr_torch.inputs import DenseFeat, SparseFeat, get_feature_names
+from sklearn import preprocessing
+
+from feature_name import *
+
 
 def get_data():
     """

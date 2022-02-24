@@ -1,5 +1,6 @@
 import torch
 from deepctr_torch.models import DeepFM
+
 from data_preprocessing import get_data
 
 dnn_feature_columns, linear_feature_columns, train_model_input, test_model_input, y_train, y_test = get_data()
