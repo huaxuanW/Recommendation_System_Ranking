@@ -1,7 +1,6 @@
 target = 'purchased_flag' #label
 
 numerical_feature = [
-    'purchases', #行为数据
     'open_purchases_daily_30', #统计类
     'open_purchases_daily_pct_30', #统计类
     'open_purchases_daily_180', #统计类
@@ -54,3 +53,5 @@ categorical_feature = [
     'cluster_Super',#标签类 
     'buyer_id_masked' # 用户id
 ]
+
+lstm_feature = [f"lstm_fea_{i}" for i in range(90)]
